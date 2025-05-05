@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso de Datos</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <main class="main-container">
+        <h1 class="yourself">Datos personales</h1>
+        <form class="content" action="#" method="post">
+            <div class="form">
+                <label for="nombre" class="data-title">Nombre</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form">
+                <label for="telefono" class="data-title">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </div>
+            <div class="form">
+                <label for="correo" class="data-title">Correo</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div class="form">
+                <label for="contrasena" class="data-title">Contraseña</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+            </div>
+            <div class="form">
+                <label for="fecha" class="data-title">Fecha de nacimiento</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+            <div class="form">
+                <label for="genero" class="data-title">Género</label>
+                <select name="genero" id="genero" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Sin mencionar">Sin mencionar</option>
+                </select>
+            </div>
+            <div class="form">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </main>
+</body>
+
+</html>
